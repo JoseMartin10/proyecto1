@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'font';
+    src: url('./font/Louis\ George\ Cafe.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+#font{
+    font-family: font;
+    
+}
+
+
+body{
+    
+    background-color: rgb(27, 27, 27);
+     color: white;
+}
+
+
+.menu{
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 3px rgb(105, 105, 105);
+    padding: 20px;
+    
+}
+
+
+.menuCantainer{
+    width: fit-content;
+    margin: auto;
+   
+}
+
+.menuItem{
+    display: inline-block;
+  margin: 2px 2px 2px 40px;
+
+
+
+
+}
+.menuItem:hover{
+    transform: scale(1.05);
+    transition: all ease-in-out .2s;
+}
+
+.menuLink{
+    color: black;
+text-align: center;
+    padding: 8px;
+    border-radius: 10;
+    font-weight: bold;
+}
+
+.menuLink:hover {
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    transition: all ease-in-out .5s;
+    
+}
+
+.banner {
+background-image: url(./img/The\ Last\ Of\ Us.jpg);
+background-repeat: no-repeat;
+height: 350px;
+background-position: 0px -220px;
+
+}
+
+
+.title{
+    text-align: center;
+    font-size: 70px;
+    margin: 30px;
+    
+}
+
+.section1{
+
+    width: 600px;
+    margin-left: 30px;
+    padding: 50px;
+    display: inline-block;
+ 
+    
+  
+}
+
+.section2{
+background-image: url(./img/Home.jpg);
+width: 600px;
+margin-left: 30px;
+
+padding: 60px;
+display: inline-block;
+height: 575px;
+border-radius: 20px;
+
+}
+
+.tableContent{
+
+    background-color:rgba(233, 106, 48, 0.712);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 4px 3px rgb(58, 58, 58);
+    
+  
+}
+
+table{
+
+ width: 800px;
+ height: 200px;
+ text-align: center;
+ padding: 15px;
+}
+
+th{
+
+    padding: 6px;
+    text-align: center;
+}
+
+td:hover, th:hover {
+    background-color: rgba(218, 98, 42, 0.712);
+    border-radius: 9px;
+    
+}
+
+
+.linkTable{
+
+    color: white;
+    
+}
+
+.linkTable:hover{
+    color: rgb(255, 207, 168);
+    
+}
+
+footer{
+    background-color: rgb(17, 17, 17);
+    padding: 30px;
+    height: fit-content;
+    text-align: center;
+
+
+
+}
+
+.linkFooter{
+    color: white;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    padding: 13px;
+}
+
+.linkFooter:hover{
+    color: rgb(197, 197, 197);
+}
